@@ -68,7 +68,7 @@ fun Pagehome(navController: NavController) {
                 ) {
                     Column {
                         Image(
-                            painter = painterResource(R.drawable.banner0),
+                            painter = painterResource(R.drawable.banner4),
                             contentDescription = "Description",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
@@ -102,7 +102,7 @@ fun Pagehome(navController: NavController) {
                 ) {
                     Column {
                         Image(
-                            painter = painterResource(R.drawable.banner0),
+                            painter = painterResource(R.drawable.banner1),
                             contentDescription = "Description",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
@@ -136,7 +136,7 @@ fun Pagehome(navController: NavController) {
                 ) {
                     Column {
                         Image(
-                            painter = painterResource(R.drawable.banner0),
+                            painter = painterResource(R.drawable.banner2),
                             contentDescription = "Description",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
@@ -169,7 +169,7 @@ fun Pagehome(navController: NavController) {
                 ) {
                     Column {
                         Image(
-                            painter = painterResource(R.drawable.banner0),
+                            painter = painterResource(R.drawable.banner3),
                             contentDescription = "Description",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier

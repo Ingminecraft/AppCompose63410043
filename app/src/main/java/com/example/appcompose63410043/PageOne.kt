@@ -12,11 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
 
 @Composable
 
@@ -56,11 +54,10 @@ fun Pageone(navController: NavController) {
                 .padding(15.dp)
         ) {
             Image(
-                painter = painterResource(R.drawable.banner0),
+                painter = painterResource(R.drawable.banner4),
                 contentDescription = "Description",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .width(10000.dp)
                     .height(150.dp),
             )
             Text(text = "", fontSize = 7.sp)

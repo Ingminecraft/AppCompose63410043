@@ -56,11 +56,10 @@ fun Pagetwo(navController: NavController) {
                 .padding(15.dp)
         ) {
             Image(
-                painter = painterResource(R.drawable.banner0),
+                painter = painterResource(R.drawable.banner1),
                 contentDescription = "Description",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .width(10000.dp)
                     .height(150.dp),
             )
             Text(text = "", fontSize = 7.sp)
